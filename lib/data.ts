@@ -76,10 +76,10 @@ export const projectsData = [
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Wayanad Blog",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A Serene Escape to Nature's Embrace. It shows your post , character count and social media post limits.",
+    tags: ["React", "Next.js",  "Tailwind", "MongoDB"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -94,14 +94,12 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "SQL",
+   "Tailwind CSS",
+   "Figma",
+   "Bootstrap",
   "Framer Motion",
 ] as const;
