@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import my from "@/public/my.jpg"
+import my from "@/public/new.jpg"
 
 
 export default function Intro() {
@@ -64,9 +64,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Muhammed Shakil.</span> I'm a  passionate {" "}
-        <span className="font-bold">MERN stack developer</span> with{" "}
-        <span className="font-bold"></span> a keen interest in crafting engaging and responsive web applications <span className="italic">sites & apps</span>
+        <span className="font-bold">Hello, I'm MUHAMMED SHAKIL.</span> I'm a dedicated {" "}
+        <span className="font-bold">Full Stack Developer</span> with{" "}
+        <span className="font-bold"></span>  passionate about building dynamic, responsive, and user-friendly web applications. 
+        I enjoy turning ideas into reality through clean, efficient code and thoughtful design.
         
       </motion.h1>
 

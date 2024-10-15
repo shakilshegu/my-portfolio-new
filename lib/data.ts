@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import car from "@/public/Car.png"
+import karma from "@/public/Karama.png"
 
 export const links = [
   {
@@ -43,18 +45,18 @@ export const experiencesData = [
     date: "2020",
   },
   {
-    title: "Accountant",
-    location: "UAE,Dubai",
+    title: "Full-Stack Developer",
+    location: "Calicut,Kerala",
     description:
-      "Accountant in Dubai, UAE, with 9 months experience, upskilled in Accounting and Finance in 2022-2023.",
+      "As a Full-Stack Developer intern based in Calicut, Kerala, I bring a robust skill set that includes expertise in React, Next.js, Tailwind, Express, and MongoDB.I'm open to full-time opportunities.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2023",
   },
   {
-    title: "Full-Stack Developer-Intern",
-    location: "Calicut,Kerala",
+    title: "Frond-End Developer ",
+    location: "Hong Kong - Remote ",
     description:
-      "As a Full-Stack Developer intern based in Calicut, Kerala, I bring a robust skill set that includes expertise in React, Next.js, Tailwind, Express, and MongoDB.I'm open to full-time opportunities.",
+    "Worked at Influnance, a product-based startup in Hong Kong, where I focused on front-end development. Responsible for developing and maintaining web applications, ensuring seamless user experiences and efficient performance.",
     icon: React.createElement(FaReact),
     date: "2023 - present",
   },
@@ -62,18 +64,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "SKL-PARKSPACE",
+    description:
+    "An Online Parking Management App where users can find and book parking via a map with filters. Managers can add and manage parking slots, while admins oversee all operations.",
+    tags: ["Next", "Nest", "Tailwind","PostgreSQL","GraphQL"],
+    imageUrl: corpcommentImg,
+  },
+  {
     title: "CarCR",
     description:
     "An Online Car Rental Application designed to give an efficient and seamless book checkout experience for the Users. user-friendly and partner-friendly.",
-    tags: ["React", "Express", "MongoDB", "Tailwind", "Node.js","Socket.io",],
-    imageUrl: corpcommentImg,
+    tags: ["React", "Express", "MongoDB", "Tailwind", "Node.js","Socket.io"],
+    imageUrl: car,
   },
   {
     title: "KarmaShopping",
     description:
       "An E-Commerce application that sells Sneakers which is designed to give a seamless shopping experience for users who are looking to buy Sneakers.",
     tags: ["MongoBD", "EJS", "Express", "Bootstrap", "Node.js","Razor pay"],
-    imageUrl: rmtdevImg,
+    imageUrl: karma,
   },
   {
     title: "Wayanad Blog",

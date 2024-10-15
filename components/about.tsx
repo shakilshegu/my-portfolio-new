@@ -19,28 +19,27 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Commerce</span>, I decided to pursue my
-        passion for web development and programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the 
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        After earning my graduation 
+        , I pursued my career for web development and programming by enrolling
+        in a coding bootcamp, where I mastered{" "}
+        <span className="font-medium">full-stack web development</span>. I find
+        the{" "}
+        <span className="italic">problem-solving aspect of programming</span>{" "}
+        particularly rewarding, and I thrive on the satisfaction of overcoming
+        challenges with well-crafted solutions. My core stack includes{" "}
         <span className="font-medium">
           React, Express, Node.js, and MongoDB
         </span>
-        . I am also familiar with Next.js and TailwindCSS. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a Mern stack 
-        developer.
+        , and I am also proficient in Next.js and Tailwind CSS. I am always
+        eager to expand my skill set and explore new technologies.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy gym workout, watching movies, and playing Football. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">Self-development and Trading</span>
+        <span className="italic">Outside of coding</span>, I enjoy working out
+        at the gym, watching movies, and playing football. I have a passion for{" "}
+        <span className="font-medium">continuous learning</span> and am
+        currently exploring topics in{" "}
+        <span className="font-medium">self-development and trading</span>.
       </p>
     </motion.section>
   );
