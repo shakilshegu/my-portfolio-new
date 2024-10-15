@@ -2,12 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import car from "@/public/Car.png"
 import karma from "@/public/Karama.png"
-
+import Parkspace from "@/public/Parkspace.png"
 export const links = [
   {
     name: "Home",
@@ -68,7 +66,7 @@ export const projectsData = [
     description:
     "An Online Parking Management App where users can find and book parking via a map with filters. Managers can add and manage parking slots, while admins oversee all operations.",
     tags: ["Next", "Nest", "Tailwind","PostgreSQL","GraphQL"],
-    imageUrl: corpcommentImg,
+    imageUrl: Parkspace,
   },
   {
     title: "CarCR",
