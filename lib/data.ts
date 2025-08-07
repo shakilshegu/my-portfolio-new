@@ -6,6 +6,7 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 import car from "@/public/Car.png";
 import karma from "@/public/Karama.png";
 import Parkspace from "@/public/Parkspace.png";
+import StudioImage from "@/public/studio.png"
 export const links = [
   {
     name: "Home",
@@ -35,12 +36,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Bcom Computer Application",
-    location: "Wayanad,Kerala",
+    title: "Full-Stack Developer",
+    location: "Telangana, India",
     description:
-      "Graduated in BCom Computer Application from Wayanad, Kerala in 2020, cherishing a journey of challenges, triumphs, and academic growth.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2020",
+      "Developed and optimized full-stack applications using the MERN stack with a strong focus on scalability and performance. Built front-end interfaces with React.js and Next.js for platforms like Goobooz, Mind360, and RentOut. Integrated Stripe, Firebase, and migrated services to microservices architecture.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Nov 2024 – Present",
+  },
+  {
+    title: "Frond-End Developer ",
+    location: "Hong Kong - Remote ",
+    description:
+      "Worked at Influnance, a product-based startup in Hong Kong, where I focused on front-end development. Responsible for developing and maintaining web applications, ensuring seamless user experiences and efficient performance.",
+    icon: React.createElement(CgWorkAlt),
+    date: "July 2023 - Sept 2024",
   },
   {
     title: "Full-Stack Developer",
@@ -51,43 +60,67 @@ export const experiencesData = [
     date: "2022 - 2023",
   },
   {
-    title: "Frond-End Developer ",
-    location: "Hong Kong - Remote ",
+    title: "Bcom Computer Application",
+    location: "Wayanad,Kerala",
     description:
-      "Worked at Influnance, a product-based startup in Hong Kong, where I focused on front-end development. Responsible for developing and maintaining web applications, ensuring seamless user experiences and efficient performance.",
-    icon: React.createElement(FaReact),
-    date: "2023 - present",
+      "Graduated in BCom Computer Application from Wayanad, Kerala in 2020, cherishing a journey of challenges, triumphs, and academic growth.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020",
   },
 ] as const;
 
+
 export const projectsData = [
+   {
+    title: "SKL-Studio",
+    description:
+      "Connecting Freelancers and Studio Owners Seamlessly. Connects photographers, videographers, and creators with premium studio spaces for seamless booking, payment, and content delivery.",
+    tags: [
+      "Next.js",
+      "Tailwind CSS",
+      "Redux",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "Razorpay API",
+      "AWS S3",
+      "TanStack Query",
+      "JWT",
+    ],
+    imageUrl: StudioImage, // Replace with the actual image import reference
+    websiteUrl: "https://web-front-skl-studio.vercel.app/",
+  },
   {
     title: "SKL-PARKSPACE",
     description:
       "An Online Parking Management App where users can find and book parking via a map with filters. Managers can add and manage parking slots, while admins oversee all operations.",
-    tags: ["Next", "Nest", "Tailwind", "PostgreSQL", "GraphQL"],
+    tags: ["Next", "Nest", "Tailwind", "PostgreSQL", "GraphQL","S3","Prisma","Javascript"],
     imageUrl: Parkspace,
+    websiteUrl: "",
   },
   {
     title: "CarCR",
     description:
       "An Online Car Rental Application designed to give an efficient and seamless book checkout experience for the Users. user-friendly and partner-friendly.",
-    tags: ["React", "Express", "MongoDB", "Tailwind", "Node.js", "Socket.io"],
+    tags: ["React", "Express", "MongoDB", "Tailwind", "Node.js", "Socket.io","JWT","S3","AWS","Razor pay"],
     imageUrl: car,
+     websiteUrl: "",
   },
   {
     title: "KarmaShopping",
     description:
       "An E-Commerce application that sells Sneakers which is designed to give a seamless shopping experience for users who are looking to buy Sneakers.",
-    tags: ["MongoBD", "EJS", "Express", "Bootstrap", "Node.js", "Razor pay"],
+    tags: ["MongoBD", "EJS", "Express", "Bootstrap", "Node.js", "Razor pay","JWT","Cloudinary"],
     imageUrl: karma,
+     websiteUrl: "",
   },
   {
     title: "Wayanad Blog",
     description:
       "A Serene Escape to Nature's Embrace. It shows your post , character count and social media post limits.",
-    tags: ["React", "Next.js", "Tailwind", "MongoDB"],
+    tags: ["React", "Next.js", "Tailwind", "MongoDB",],
     imageUrl: wordanalyticsImg,
+     websiteUrl: "",
   },
 ] as const;
 
@@ -109,4 +142,6 @@ export const skillsData = [
   "Figma",
   "Bootstrap",
   "Framer Motion",
+  "S3",
+  "AWS EC2"
 ] as const;
