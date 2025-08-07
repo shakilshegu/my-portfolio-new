@@ -9,8 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import my from "@/public/new.jpg"
-
+import my from "@/public/new.jpg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -34,7 +33,7 @@ export default function Intro() {
           >
             <Image
               src={my}
-              alt="Ricardo portrait"
+              alt="Muhammed Shakil portrait"
               width="192"
               height="192"
               quality="95"
@@ -60,15 +59,16 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-3 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm MUHAMMED SHAKIL.</span> I'm a dedicated {" "}
-        <span className="font-bold">Full Stack Developer</span> with{" "}
-        <span className="font-bold"></span>  passionate about building dynamic, responsive, and user-friendly web applications. 
-        I enjoy turning ideas into reality through clean, efficient code and thoughtful design.
-        
+        <span className="font-bold">Hey, I'm Muhammed Shakil.</span> Three years ago, 
+        I discovered coding and fell in love with turning ideas into reality. As a{" "}
+        <span className="font-bold">Full Stack Developer</span>, I build{" "}
+        <span className="font-bold">web applications that solve real problems</span> and 
+        make people's lives a little easier. Nothing beats that feeling when someone says 
+        <span className="font-bold"> "This actually works perfectly!"</span>
       </motion.h1>
 
       <motion.div
